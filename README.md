@@ -233,7 +233,7 @@ All database and JWT values can be overridden via environment variables.
 - Docker for running MySQL. Docker starts automatically with services mentioned in Spring
 
 ---
-##Steps
+## Steps
 - Change file path in compose.yml for Sql database persistent volume
 - Connect to database and create all tables in jobportal-schema.sql and jobportal-data.sql
 - Open jobporatl ui folder. Run 'npm install' followed by 'npm run dev'. Open the localhost:5173 web to test out the applications
